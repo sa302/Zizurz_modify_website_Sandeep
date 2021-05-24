@@ -1,0 +1,325 @@
+.big-wrapper{
+    width:100%;
+    background-color:#dce0e6;
+}
+.my-container{
+    width:100%;
+    background-color: cadetblue;
+}
+#my-navigation{
+    background:none;
+    border:0;
+}
+ #my-navigation .navbar-brand  {
+     width:200px;
+     height:100px;
+    background-color:#111a3d;
+    color:#FFF;
+    font-weight: 400;
+    font-size:45px;
+     position:relative;
+    top:40px; 
+    padding-top:30px;
+    margin-left:80px;
+    
+    
+}
+#my-navigation .active a{
+    background-color: #636b6e;
+}
+
+
+#my-navigation a{
+    color:#fff;
+    font-size:15px;
+    padding:2px 15px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#my-navigation ul li{
+        
+   margin-top:50px;
+   margin-left:15px; 
+   background-color: #111a3d;
+}
+
+#my-navigation ul {
+        
+   margin-right: 80px;;
+ }
+
+/* second-section starts */
+
+
+ .second-section{
+    border:2px solid cadetblue;
+    margin-top:50px;
+    background-color:#fff;
+}
+
+.second-section h1{
+    position: relative;
+    top:100px;
+    font-weight: 600;
+    font-size: 50px;
+  
+}
+
+.second-section img{
+    width:100%;
+    margin-left: 0px;
+}
+
+/* third-section starts */
+
+.person{
+   
+    padding:30px 0px;
+    margin-top:65px;
+} 
+
+.person img{
+    border: 5px solid cadetblue;
+    width:100%;
+}
+
+.person p{
+    padding:5px;
+    text-align: justify;
+    color:gray;
+}
+.person h3{
+    letter-spacing: -1px;;
+}
+
+/* left section right section */
+
+.left-section{
+    border:5px solid cadetblue;
+    background-color: #fff;;
+}
+.left-section h1{
+    color:#fff;
+    background-color: #111a3d;
+    width:35%;
+    padding: 10px 30px 10px 20px;
+    position: relative;
+    top:-40px;
+    left:10px;
+}
+.left-section img{
+    margin-left:20px;
+}
+.left-section p{
+  text-align: justify;
+  Padding:30px;
+  color: #2d2e2d;
+}
+
+/* right-section */
+
+.right-section .main,.main2{
+    background-color: cadetblue;
+    border:8px solid #5fafc7;
+}
+.right-section h1{
+    color:#fff;
+    background-color: #111a3d;
+    width:35%;
+    padding: 10px 30px 10px 20px;
+    position: relative;
+    top:-40px;
+    left:10px;   
+}
+
+.right-section  .main p{
+    color:white;
+    line-height: 22px;;
+    padding:10px;
+}
+.right-section .main h5{
+    color:#fff;
+}
+
+.right-section .main2{
+    margin-top: 30px;
+    height:220px;
+}
+
+.right-section .main2 img{
+    position: relative;
+    top:-20px; 
+    left:-30px;
+}
+
+.right-section  .main2  p{
+    color:white;
+    line-height: 22px;;
+    padding:30px;
+    font-weight: 700;
+}
+
+/* footer starts */
+.footer{
+    width:100%;
+    background-color: cadetblue;
+    margin-top: 50px;;
+    padding:30px;
+}
+
+.footer p{
+    color:#fff;
+  
+   
+}
+.footer .social{
+    text-align: right;
+    width:12%;
+    background-color: #636b6e;
+    float:right;
+    padding:20px;
+   
+    
+}
+
+.footer ,.social span {
+    margin-right:4px;
+    
+}
+
+/* media query starts */
+@media only screen and (max-width:900px)
+{
+    #my-navigation .navbar-brand  {
+        width:160px;
+        height:80px;
+       font-weight: 200;
+       font-size:35px;
+       position: unset;
+       padding-top:30px;
+       margin-left:10px;
+       
+    }
+
+    .person{
+   
+   
+        margin-top:-10px;
+    }
+    
+    .left-section h1{
+
+     width:50%;
+     padding-right:30px;
+       
+    }
+    .left-section{
+        margin-bottom:30px;
+    }
+
+   .left-section h2{
+        font-size:25px; 
+       margin-left: 20px;
+   }
+
+    .right-section  .main2  p{
+       
+        line-height: 20px;;
+        font-weight: 200;
+        margin-left: 20px;
+        margin-top:30px; 
+        padding:0px;
+
+    }
+
+    .right-section h1{
+        width:50%;
+    }
+    
+    .footer .social{
+    
+        width:100%;
+        padding:15px 0px;
+        font-size: 22px;
+        text-align: center;
+        float: unset;
+    }
+
+    .footer span{
+        padding-right:15px;
+        font-size:25px;
+
+    }
+    
+   .footer .footer_p{
+       width:100%;
+       text-align: center;
+       float:unset;
+       word-spacing: 5px;;
+      
+       
+   }
+
+    .footer{
+
+    margin-top: 10px;;
+    }
+    
+}
+
+
+
+
+
+   
+@media only screen and (max-width:1100px){
+    .second-section h1{
+      top:40px;
+      font-weight: 800;
+      font-size: 20px;
+      text-align: left;
+    }
+
+    .left-section{
+        margin-bottom:30px;
+    }
+
+    .footer .social{
+    
+        width:100%;
+        padding:15px 0px;
+        font-size: 22px;
+        text-align: center;
+        float: unset;
+    }
+
+    .footer span{
+        padding-right:15px;
+        font-size:25px;
+
+    }
+    
+   .footer .footer_p{
+       width:100%;
+       text-align: center;
+       float:unset;
+       word-spacing: 5px;;
+      
+       
+   }
+
+    .footer{
+
+    margin-top: 10px;;
+    }
+    
+
+   }
+
+
+
+
+
+  
+
